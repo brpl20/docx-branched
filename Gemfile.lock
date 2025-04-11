@@ -1,0 +1,54 @@
+GIT
+  remote: https://github.com/yjukaku/docx.git
+  revision: 46beee1788214e0b1511da40d58a879d333ab50c
+  branch: add-other-doc-access
+  specs:
+    docx (0.3.0)
+      nokogiri (~> 1.8, >= 1.8.1)
+      rubyzip (~> 1.2, >= 1.2.1)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    benchmark (0.4.0)
+    logger (1.7.0)
+    mini_magick (5.2.0)
+      benchmark
+      logger
+    nokogiri (1.18.7-aarch64-linux-gnu)
+      racc (~> 1.4)
+    nokogiri (1.18.7-aarch64-linux-musl)
+      racc (~> 1.4)
+    nokogiri (1.18.7-arm-linux-gnu)
+      racc (~> 1.4)
+    nokogiri (1.18.7-arm-linux-musl)
+      racc (~> 1.4)
+    nokogiri (1.18.7-arm64-darwin)
+      racc (~> 1.4)
+    nokogiri (1.18.7-x86_64-darwin)
+      racc (~> 1.4)
+    nokogiri (1.18.7-x86_64-linux-gnu)
+      racc (~> 1.4)
+    nokogiri (1.18.7-x86_64-linux-musl)
+      racc (~> 1.4)
+    racc (1.8.1)
+    rubyzip (1.3.0)
+
+PLATFORMS
+  aarch64-linux-gnu
+  aarch64-linux-musl
+  arm-linux-gnu
+  arm-linux-musl
+  arm64-darwin
+  x86_64-darwin
+  x86_64-linux-gnu
+  x86_64-linux-musl
+
+DEPENDENCIES
+  docx!
+  mini_magick
+  nokogiri
+  rubyzip
+
+BUNDLED WITH
+   2.6.3
